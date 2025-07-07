@@ -1,0 +1,195 @@
+:root {
+    --primary-color: #29b6f6;
+    /* Light Blue */
+    --secondary-color: #ffca28;
+    /* Amber */
+    --accent-color: #ef5350;
+    /* Red */
+    --bg-color: #f0f4f8;
+    /* Light Grey Blue */
+    --text-color: #37474f;
+    /* Blue Grey */
+}
+
+body {
+    background-color: var(--bg-color);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23e3f2fd' fill-opacity='0.4'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h4v-9H0v-1h4v-9H0v-1h4v-9H0v-1h4v-9H0v-1h4v-9H0v-1h4v-9H0v-1h4v-9H0v-1h4v-9H0v-1h4V0h1v4h9V0h1v4h9V0h1v4h9V0h1v4h9V0h1v4h9V0h1v4h9V0h1v4h9V0h1v4h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h5v1h-5v9h5v1h-5v9h5v1h-5v9h5v1h-5v9h5v1h-5v9h5v1h-5v9h5v1h-5v9h5v1h-5v9h5v1h-5v5h-1v-5h-9v5h-1v-5h-9v5h-1v-5h-9v5h-1v-5h-9v5h-1v-5h-9v5h-1v-5h-9v5h-1v-5h-9v5h-1v-5H0v-1h5v-9H0v-1h5v-9H0v-1h5v-9H0v-1h5v-9H0v-1h5v-9H0v-1h5v-9H0v-1h5v-9H0v-1h5V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm1-1h8v-7h-8v7zm0-10h8v-7h-8v7zm0-10h8v-7h-8v7zm0-10h8v-7h-8v7zm0-10h8v-7h-8v7zm0-10h8v-7h-8v7zm0-10h8v-7h-8v7zm0-10h8v-7h-8v7zm0-10h8v-7h-8v7zm10 0h8v-7h-8v7zm0 10h8v-7h-8v7zm0 10h8v-7h-8v7zm0 10h8v-7h-8v7zm0 10h8v-7h-8v7zm0 10h8v-7h-8v7zm0 10h8v-7h-8v7zm0 10h8v-7h-8v7zm0 10h8v-7h-8v7zm10 0h8v-7h-8v7zm0-10h8v-7h-8v7zm0-10h8v-7h-8v7zm0-10h8v-7h-8v7zm0-10h8v-7h-8v7zm0-10h8v-7h-8v7zm0-10h8v-7h-8v7zm0-10h8v-7h-8v7zm0-10h8v-7h-8v7zm10 0h8v-7h-8v7zm0 10h8v-7h-8v7zm0 10h8v-7h-8v7zm0 10h8v-7h-8v7zm0 10h8v-7h-8v7zm0 10h8v-7h-8v7zm0 10h8v-7h-8v7zm0 10h8v-7h-8v7zm0 10h8v-7h-8v7zm10 0h8v-7h-8v7zm0-10h8v-7h-8v7zm0-10h8v-7h-8v7zm0-10h8v-7h-8v7zm0-10h8v-7h-8v7zm0-10h8v-7h-8v7zm0-10h8v-7h-8v7zm0-10h8v-7h-8v7zm0-10h8v-7h-8v7zm10 0h8v-7h-8v7zm0 10h8v-7h-8v7zm0 10h8v-7h-8v7zm0 10h8v-7h-8v7zm0 10h8v-7h-8v7zm0 10h8v-7h-8v7zm0 10h8v-7h-8v7zm0 10h8v-7h-8v7zm0 10h8v-7h-8v7zm10 0h8v-7h-8v7zm0-10h8v-7h-8v7zm0-10h8v-7h-8v7zm0-10h8v-7h-8v7zm0-10h8v-7h-8v7zm0-10h8v-7h-8v7zm0-10h8v-7h-8v7zm0-10h8v-7h-8v7zm0-10h8v-7h-8v7zm10 0h8v-7h-8v7zm0 10h8v-7h-8v7zm0 10h8v-7h-8v7zm0 10h8v-7h-8v7zm0 10h8v-7h-8v7zm0 10h8v-7h-8v7zm0 10h8v-7h-8v7zm0 10h8v-7h-8v7zm0 10h8v-7h-8v7z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-color);
+}
+
+.app-header {
+    font-family: 'Luckiest Guy', cursive;
+    color: white;
+    background: linear-gradient(45deg, var(--primary-color), var(--accent-color));
+    padding: 2rem 1rem;
+    text-align: center;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2);
+    animation: bounceInDown 1s ease;
+    margin-bottom: 2rem;
+}
+
+@keyframes bounceInDown {
+    0%,
+    60%,
+    75%,
+    90%,
+    100% {
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+
+    0% {
+        opacity: 0;
+        transform: translate3d(0, -3000px, 0);
+    }
+
+    60% {
+        opacity: 1;
+        transform: translate3d(0, 25px, 0);
+    }
+
+    75% {
+        transform: translate3d(0, -10px, 0);
+    }
+
+    90% {
+        transform: translate3d(0, 5px, 0);
+    }
+
+    100% {
+        transform: none;
+    }
+}
+
+.card {
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.form-label {
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.form-select,
+.form-control {
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    padding: 0.75rem 1rem;
+}
+
+.form-select:focus,
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.25rem rgba(41, 182, 246, 0.25);
+}
+
+.interest-checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.interest-checkbox {
+    display: none;
+}
+
+.interest-label {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 50px;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 700;
+}
+
+.interest-checkbox:checked+.interest-label {
+    background-color: var(--secondary-color);
+    color: white;
+    border-color: var(--secondary-color);
+    transform: scale(1.05);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.generate-btn {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 1rem 3rem;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    animation: pulse 2s infinite;
+}
+
+.generate-btn:hover {
+    background-color: #d32f2f;
+    box-shadow: 0 15px 20px rgba(239, 83, 80, 0.4);
+    transform: translateY(-7px);
+}
+
+.generate-btn:disabled {
+    background-color: #9e9e9e;
+    animation: none;
+    cursor: not-allowed;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.modal-content {
+    border-radius: 30px;
+    border: 5px solid var(--primary-color);
+}
+
+.modal-header {
+    background-color: var(--primary-color);
+    color: white;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2rem;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+    border-bottom: none;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+.modal-title {
+    font-size: 2.5rem;
+}
+
+.modal-body img {
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.modal-footer .btn-close-modal {
+    background-color: var(--secondary-color);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 0.5rem 1.5rem;
+}
